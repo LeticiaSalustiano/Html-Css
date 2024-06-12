@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    font-size: 30px;
+}
+
+.tabela{
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+thead, tfoot{
+    font-size: 25px;
+    font-variant: small-caps;
+    background-color: rgba(30, 209, 30, 0.507);
+    color: black;
+}
+
+td{
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+th{
+    height: 60px;
+    background-color: rgb(30, 209, 30);
+    text-align: center;
+    border-radius: 5px;
+}
