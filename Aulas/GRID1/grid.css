@@ -1,0 +1,76 @@
+@charset "UFT-8";
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.container{
+    background-image: url(cement-wall-floor-copy-space.jpg);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200, 200, 200, 80;
+    grid-template-areas: "header header header header header header header header header header header header" 
+                         "aside  aside   null   null   main   main   main   main  main   main   main   main"
+                         "aside  aside   null   null   main   main   main   main   main  main   main   main"
+                         "footer footer footer footer footer footer footer footer footer footer footer footer";
+    
+}
+
+.header{
+    grid-column: 1 / 6;
+    border: 3px solid rgb(0, 0, 0);
+    grid-area: header;
+    justify-self: center;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.425);
+    height: 100px;
+    width: 1545px;
+    text-align: center;
+    margin-right: 460px;
+}
+
+.main{
+    grid-area: main;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(31, 31, 31, 0.397);
+    height: 540px;
+    width: 860px;  
+    margin-left: 1%;
+}
+
+.aside{
+    justify-self: center;
+    align-self: center;
+    grid-area: aside;  
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 100%;
+    width: 290px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.footer{
+    grid-area: footer;
+    display: grid;
+    border: 3px solid black;
+    align-self: flex-end;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-align: center;
+    width: 1545px;
+}
+
+h1{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
