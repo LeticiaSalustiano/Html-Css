@@ -1,0 +1,69 @@
+*{
+    margin:  0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+   width: 100vh;
+   height:100vh; 
+}
+
+body{
+    position: relative;
+    background-color: rgba(209, 209, 209, 0.856);
+}
+
+main{
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color:rgb(255, 255, 255);
+    padding: 6%;
+    }
+
+legend{
+    font-size: 25px;
+    font-weight: 550;
+}
+
+label{
+    font-weight: 550;
+    padding: 17px 0px 0px 0px;
+    display: inline-block;
+    width: 50px;
+    font-size: 15px;
+}
+
+.cadastro{
+    width: 40%;
+    background-color: green;
+
+}
+
+.datas{
+    width: 30%;
+    background-color: green;
+}
+
+input{
+    height: 30px;
+    margin: 5px;
+    text-align: left;
+ 
+}
+
+.datas{
+    width: 30%;
+
+}
+
+
+
+
+fieldset{
+    margin: 5px;
+    align-items: center;
+}
