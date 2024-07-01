@@ -15,23 +15,25 @@ body{
 }
 
 main{
-    position: absolute;
+    position: relative;
     top: 60%;
-    left: 80%;
+    left: 100%;
     transform: translate(-50%, -50%);
     width: 400px;
     background-color:rgb(255, 255, 255);
     padding: 6%;
+    margin: 10%;
     }
 
 legend{
     font-size: 25px;
     font-weight: 550;
+    
 }
 
 label{
     font-weight: 550;
-    padding: 17px 0px 0px 0px;
+    padding: 17px 20px 0px 0px;
     display: inline-block;
     width: 50px;
     font-size: 15px;
@@ -39,29 +41,33 @@ label{
 
 .cadastro{
     width: 40%;
-    background-color: green;
+    margin-left: 4%;
+    
 
 }
 
 .datas{
     width: 30%;
-    background-color: green;
+  margin-top: 10px;
 }
 
 input{
     height: 30px;
     margin: 5px;
+   
     text-align: left;
  
 }
 
-.datas{
-    width: 30%;
-
+input#masc{
+    margin-left: 10px;
+    
 }
 
-
-
+input#inivel{
+    margin: 20px;
+    
+}
 
 fieldset{
     margin: 5px;
