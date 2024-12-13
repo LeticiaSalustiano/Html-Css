@@ -1,87 +1,146 @@
+@font-face { font-family: 'ShrekFont'; 
+    src: url('fonts/Shrek.ttf') format('truetype');
 
-
-*{
-    margin: 0%;
-    padding: 0%;
 }
 
-
-
-body{
-    background-color: gray;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+body {
+    background-color: #e0f7da; /* Fundo com um verde claro, inspirado em Shrek */
+    font-family: Arial, sans-serif;
 }
 
-main{
-    max-width: 800px;
-    min-width: 320px;
-    background-color: rgb(180, 179, 185);
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+nav {
+    background-color: #4caf50; /* Verde do personagem Shrek */
+    color: white;
     padding: 10px;
-    border-radius: 10px;
+    text-align: center;
+}
+
+nav .navbar-brand {
+    color: white;
+}
+
+nav .navbar-brand img {
+    margin-right: 10px;
 }
 
 img{
-width: 100%;
-
-}
-
-iframe{
-width: 100%;
-
-}
-
-.iframe{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.tabela{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 50%;
     width: 100%;
 }
 
-.tabela iframe{
+/* Estilização específica para o iframe do trailer */
+.iframe-trailer {
     width: 100%;
-    height: 70vh;
+    height: 500px; /* Ajuste a altura conforme necessário */
+    border: 3px solid #4caf50; /* Bordas verdes inspiradas no Shrek */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito de profundidade */
+    margin-top: 20px;
 }
 
-.tabela h1{
-    margin-bottom: 70px;
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.links{
-    margin-bottom: 50px;
+h1 {
+   
+    color: #388e3c; /* Verde escuro para títulos */
+    text-align: center;
 }
 
-.links a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+h2 {
+    color: #2e7d32; /* Verde um pouco mais escuro para subtítulos */
 }
 
-div h1{
-    height: 50%
-
+p {
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
-button{
-border-radius: 5px;
-background-color: gray;
-
-
+.img-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-button:hover{
-    background-color: var(--green);
-    color: black;
+
+.tabela {
+    margin: 20px 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2; /* Cor suave para destacar a tabela */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #4caf50; /* Verde do personagem Shrek */
+    color: white;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #c8e6c9; /* Verde claro para linhas alternadas */
+}
+
+.table tr:hover {
+    background-color: #a5d6a7; /* Verde mais intenso no hover */
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.links a {
+    margin: 0 10px;
+}
+
+.links button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.links button:hover {
+    background-color: #388e3c;
+}
+
+.iframe-tabela {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
 }
