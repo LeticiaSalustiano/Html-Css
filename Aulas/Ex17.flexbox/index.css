@@ -1,111 +1,104 @@
-@import url(roma2.jpg);
+@import url('./imagens/roma2.jpg');
 
-*{
-margin: 0px;
-padding: 0px;
-font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background: url(roma2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 72%;
+body {
+    background: url('./imagens/roma2.jpg') no-repeat fixed center center/cover;
+    height: 100%;
 }
 
-.menu{
-    background-color: rgba(0, 0, 0, 0.219);
-}
-h1{
-    font-size: 60px;
+.menu {
+    background-color: #00000071;
+    padding: 10px 0;
     text-align: center;
+}
+
+h1 {
+    font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgba(255, 255, 255, 0.89);
 }
 
-a{
+a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.836);
-    margin-left: 15px;
+    margin: 0 15px;
 }
 
-a:hover{
+a:hover {
     background-color: rgba(189, 189, 189, 0.705);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-h2{
+h2 {
     color: white;
     padding-top: 15px;
     padding-left: 13px;
 }
 
-img{
-height: 135px;
-width: 200px;
-align-items: center;
-border-radius: 7px;
+img {
+    height: 135px;
+    width: 200px;
+    align-items: center;
+    border-radius: 7px;
 }
 
-.conteiner{
-   
+.container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-flow: row-reverse;
     justify-content: space-around;
     align-items: baseline;
-    
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
-.itens{
+.itens {
     border-radius: 10px;
     background-color: rgb(150, 150, 150);
     border: 0.1px solid rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
     margin: 10px;
-    margin-top: 10px;
     height: 270px;
-    flex: auto;
-    flex-grow: 1;
-    flex-shrink: 5;
-    flex-basis: auto;
+    flex: 1 1 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.ordem1{order: 1;}
-.ordem2{order: 2;}
-.ordem3{order: 3;}
-.ordrm4{order: 4;}
-.ordem5{order: 5;}
-.ordem6{order: 6;}
-.ordem7{order: 7;}
+.ordem1 { order: 1; }
+.ordem2 { order: 2; }
+.ordem3 { order: 3; }
+.ordem4 { order: 4; }
+.ordem5 { order: 5; }
+.ordem6 { order: 6; }
+.ordem7 { order: 7; }
 
-h3{
+h3 {
     padding-top: 5px;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
 }
 
-.p{
+.p {
     color: rgba(255, 255, 255, 0.781);
-    padding-left: 45px;
-    padding-top: 10px;
+    padding: 10px;
 }
 
-p{
-
+p {
     color: rgba(255, 255, 255, 0.842);
     text-align: left;
 }
 
-.texto{
+.texto {
     font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.795), rgba(0, 0, 0, 0.39));
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.884), rgba(0, 0, 0, 0.568));
     color: white;
-    padding-left: 10px;
-    padding-top: 15px;
+    padding: 15px 10px;
+    margin: 20px;
+    border-radius: 10px;
 }
-
 
